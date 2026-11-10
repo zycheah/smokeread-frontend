@@ -1,6 +1,6 @@
 # System Architecture
 
-This document describes how the Firefighter Safety Data Hub is put together. The system is split across two repositories:
+This document describes how SmokeRead is put together. The system is split across two repositories:
 
 | Repository | Contents |
 |---|---|
@@ -11,7 +11,7 @@ This document describes how the Firefighter Safety Data Hub is put together. The
 
 ## 1. Purpose
 
-The Firefighter Safety Data Hub is a proof-of-concept platform for firefighter exposure research.
+SmokeRead is a proof-of-concept platform for firefighter exposure research.
 
 - **Firefighters** use the mobile app to record fire events, the personal protective equipment (PPE) they wore, smoke sampler results and their location.
 - **Researchers** use the web dashboard to view summary statistics, browse the collected data and export it to CSV.

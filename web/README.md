@@ -1,6 +1,6 @@
 # Web Dashboard
 
-Researcher-facing web application for the Firefighter Safety Data Hub. Researchers sign in, view summary statistics and browse or export the data collected by the mobile app.
+Researcher-facing web application for SmokeRead. Researchers sign in, view summary statistics and browse or export the data collected by the mobile app.
 
 ---
 
@@ -47,14 +47,14 @@ For a **local API**, keep `VITE_API_BASE_URL` empty and set the proxy target. Vi
 
 ```env
 API_PROXY_TARGET=http://127.0.0.1:8000
-VITE_APP_NAME=Firefighter Safety Data Hub
+VITE_APP_NAME=SmokeRead
 ```
 
 For a **deployed API**, set the full web API address:
 
 ```env
 VITE_API_BASE_URL=https://<API_HOST>/api/v1/web_api
-VITE_APP_NAME=Firefighter Safety Data Hub
+VITE_APP_NAME=SmokeRead
 ```
 
 ### Step 4: Start the development server

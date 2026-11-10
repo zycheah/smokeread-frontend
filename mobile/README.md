@@ -1,6 +1,6 @@
 # Mobile App
 
-Firefighter-facing Flutter application for the Firefighter Safety Data Hub. Firefighters create an account, give consent, and submit exposure data: location, fire events, personal protective equipment (PPE) and smoke sampler results.
+Firefighter-facing Flutter application for SmokeRead. Firefighters create an account, give consent, and submit exposure data: location, fire events, personal protective equipment (PPE) and smoke sampler results.
 
 | Item | Value |
 |---|---|

@@ -1,6 +1,6 @@
-# Firefighter Safety Data Hub — Frontend
+# SmokeRead — Frontend
 
-Client applications for the Firefighter Safety Data Hub, a platform that collects firefighter exposure data and makes it available to researchers.
+Client applications for SmokeRead, a platform that collects firefighter exposure data and makes it available to researchers.
 
 | Folder | Application | Users | Stack |
 |---|---|---|---|
