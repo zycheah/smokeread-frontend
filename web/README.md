@@ -28,7 +28,7 @@ Researcher-facing web application for the Firefighter Safety Data Hub. Researche
 ### Step 1: Install the prerequisites
 
 - Node.js 20.19 or newer (`node --version`)
-- A running API (see the `firefighter-data-hub-backend` repository)
+- A running API (see the `smokeread-backend` repository)
 
 ### Step 2: Install dependencies
 

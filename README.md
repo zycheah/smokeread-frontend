@@ -8,7 +8,7 @@ Client applications for the Firefighter Safety Data Hub, a platform that collect
 | [`web/`](web/) | Web dashboard | Researchers | React 19, TypeScript, Vite, Tailwind CSS |
 | [`docs/`](docs/) | Project documentation | Developers | Markdown, reference material |
 
-Both applications communicate only with the REST API in the companion repository **`firefighter-data-hub-backend`**:
+Both applications communicate only with the REST API in the companion repository **`smokeread-backend`**:
 
 ```
 mobile/  ──►  <API_HOST>/api/v1/...          firefighters submit data
@@ -79,7 +79,7 @@ Details: [web/README.md](web/README.md)
 
 ## 3. Quick start
 
-You need a running API, either locally (see the `firefighter-data-hub-backend` README) or a deployed instance.
+You need a running API, either locally (see the `smokeread-backend` README) or a deployed instance.
 
 ### Web dashboard
 

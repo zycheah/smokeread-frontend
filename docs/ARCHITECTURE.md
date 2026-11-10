@@ -4,8 +4,8 @@ This document describes how the Firefighter Safety Data Hub is put together. The
 
 | Repository | Contents |
 |---|---|
-| `firefighter-data-hub-backend` | REST API (FastAPI), database models and migrations, email integration |
-| `firefighter-data-hub-frontend` | Mobile app for firefighters (Flutter) and web dashboard for researchers (React) |
+| `smokeread-backend` | REST API (FastAPI), database models and migrations, email integration |
+| `smokeread-frontend` | Mobile app for firefighters (Flutter) and web dashboard for researchers (React) |
 
 ---
 
@@ -22,12 +22,12 @@ The Firefighter Safety Data Hub is a proof-of-concept platform for firefighter e
 
 ```mermaid
 flowchart LR
-    subgraph Frontend["firefighter-data-hub-frontend"]
+    subgraph Frontend["smokeread-frontend"]
         M["Mobile app<br/>Flutter"]
         W["Web dashboard<br/>React + Vite"]
     end
 
-    subgraph Backend["firefighter-data-hub-backend"]
+    subgraph Backend["smokeread-backend"]
         API["FastAPI application"]
         MR["Mobile API<br/>/api/v1"]
         WR["Web API<br/>/api/v1/web_api"]
